@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="cell" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0fdf4" />
+    </linearGradient>
+  </defs>
+  <!-- Background with smooth squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <!-- Inner Table Card -->
+  <g transform="translate(64, 64)">
+    <!-- Header banner -->
+    <rect x="24" y="24" width="336" height="64" rx="16" fill="#ffffff" fill-opacity="0.25" />
+    <!-- Table Grid cells -->
+    <!-- Row 1 -->
+    <rect x="24" y="104" width="96" height="56" rx="12" fill="url(#cell)" />
+    <rect x="136" y="104" width="104" height="56" rx="12" fill="url(#cell)" />
+    <rect x="256" y="104" width="104" height="56" rx="12" fill="url(#cell)" fill-opacity="0.9" />
+    
+    <!-- Row 2 -->
+    <rect x="24" y="176" width="96" height="56" rx="12" fill="url(#cell)" />
+    <rect x="136" y="176" width="104" height="56" rx="12" fill="url(#cell)" />
+    <rect x="256" y="176" width="104" height="56" rx="12" fill="url(#cell)" fill-opacity="0.9" />
+    
+    <!-- Row 3 -->
+    <rect x="24" y="248" width="96" height="56" rx="12" fill="url(#cell)" />
+    <rect x="136" y="248" width="104" height="56" rx="12" fill="url(#cell)" />
+    <rect x="256" y="248" width="104" height="56" rx="12" fill="url(#cell)" fill-opacity="0.9" />
+    
+    <!-- Row 4 Highlight / Average -->
+    <rect x="24" y="320" width="336" height="40" rx="12" fill="#34d399" />
+    <!-- Checkmark or pen icon accent -->
+    <circle cx="310" cy="56" r="16" fill="#ffffff" />
+    <path d="M302 56 l6 6 l12 -12" stroke="#059669" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+  </g>
+</svg>

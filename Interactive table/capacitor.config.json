@@ -1,0 +1,6 @@
+{
+  "appId": "com.school.journal",
+  "appName": "Электронный журнал и КТП",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

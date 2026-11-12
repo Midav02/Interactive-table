@@ -1,0 +1,6 @@
+{
+  "name": "Интерактивная таблица 20x20",
+  "description": "Простая интерактивная таблица на 20 строк и 20 столбцов с поддержкой формул, форматирования и экспорта.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
